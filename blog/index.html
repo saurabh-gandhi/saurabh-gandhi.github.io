@@ -1,0 +1,12 @@
+---
+layout: default      # or post, if you make one
+title: "Blog"
+permalink: /blog/
+---
+<h1>Blog</h1>
+<ul>
+{% for p in site.posts %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a>
+      <span class="mutedTime">— {{ p.date | date: "%b %e %Y" }}</span></li>
+{% endfor %}
+</ul>
