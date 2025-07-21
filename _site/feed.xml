@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-21T17:46:10+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Saurabh Gandhi</title><subtitle>The story and thoughts of Saurabh Gandhi</subtitle><entry><title type="html">What I Learned from My Internship at Zlemma</title><link href="http://localhost:4000/personal/blog/2015/07/06/zlemma-internship/" rel="alternate" type="text/html" title="What I Learned from My Internship at Zlemma" /><published>2015-07-06T00:00:00+05:30</published><updated>2015-07-06T00:00:00+05:30</updated><id>http://localhost:4000/personal/blog/2015/07/06/zlemma-internship</id><content type="html" xml:base="http://localhost:4000/personal/blog/2015/07/06/zlemma-internship/"><![CDATA[<p>Back in January 2015, I started a six-month internship at Zlemma Analytics Pvt. Ltd. in Pune. I was a software intern, fresh off a campus placement, and full of nerves. But deep down, I had a feeling I’d do well. Looking back, I can’t help but smile at how much I grew during that time.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2025-07-21T18:19:14+05:30</updated><id>http://localhost:4001/feed.xml</id><title type="html">Saurabh Gandhi</title><subtitle>The story and thoughts of Saurabh Gandhi</subtitle><entry><title type="html">The Cold Email That Landed Me a Job at Upstox</title><link href="http://localhost:4001/2022/12/21/cold-email/" rel="alternate" type="text/html" title="The Cold Email That Landed Me a Job at Upstox" /><published>2022-12-21T00:00:00+05:30</published><updated>2022-12-21T00:00:00+05:30</updated><id>http://localhost:4001/2022/12/21/cold-email</id><content type="html" xml:base="http://localhost:4001/2022/12/21/cold-email/"><![CDATA[<h1 id="the-cold-email-that-landed-me-my-dream-job-at-upstox">The Cold Email That Landed Me My Dream Job at Upstox</h1>
+
+<blockquote>
+  <p><em>Originally published on my LinkedIn.</em></p>
+</blockquote>
+
+<p>Two years ago I hit <strong>Send</strong> on the message below.
+Subject line: <strong>“A hustler who wants to join the rocketship at Upstox.”</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>From: Saurabh Gandhi &lt;pgp17.saurabhg@spjimr.org&gt;
+To: Shrini Viswanath
+Date: 16 Sep 2020, 10:33 PM
+Subject: An Hustler who wants to join the rocketship at Upstox
+
+Hi Shrini,
+
+I am writing to you to check if I can be a part of the team at Upstox.
+But before I start my elevator pitch to sell myself and convince you of how good I am, I want to congratulate you for the amazing product that you have built.
+Having been a customer myself I love how Upstox has cut all the clutter and allows its users to focus on what matters most.
+(There are a few bugs on the iOS app but I am a promoter if you do a NPS on me.)
+No wonder the new WFH millennial Indian is taking greater interest in trading and investing.
+
+To tell you about myself, in short, I am a hustler and problem solver.
+Building delightful customer experiences with a mix of technology, design and data is what I love to do.
+I started out as a computer-science engineer, joined the only startup that visited my not-so-well-known engineering school, and built the entire backend platform from scratch (microservices, APIs, Django, Python).
+After the company was acquired I started an agritech venture that aimed to be an Amazon for farmers.
+Before demonetisation we had two crore rupees in GMV in a fully bootstrapped setup.
+I learned build-measure-learn, growth hacking, lots of SQL, and most important, customer empathy.
+
+I then completed an MBA at SP Jain Institute of Management with a focus on analytics and product management and took advanced courses at Carnegie Mellon’s Tepper School of Business.
+Now I am at Ola Electric, helping build an electric two-wheeler.
+Three months ago I was solving for the energy infrastructure, which taught me that throwing money at problems only hides them for a while.
+
+Fintech for Bharat (I come from a small town) is what I want to do next.
+Upstox has delighted me during the six months I have been a customer (I used Nirmal Bang for the past eight years) and I want to board this rocket ship.
+Product and growth are the roles I would love to pursue.
+I noticed three open positions on your job board.
+
+Please let me know if I could add value to your team.
+I have attached my CV.
+
+Regards,
+Saurabh Gandhi
++91-9767845670
+
+Attachment: Saurabh_Gandhi.pdf
+</code></pre></div></div>
+
+<p>That email changed everything.</p>
+
+<hr />
+
+<h2 id="why-i-wrote-it">Why I Wrote It</h2>
+
+<p>I was working on electric two-wheelers at Ola Electric but craved a role that blended product, growth, and fintech. Upstox ticked every box. Instead of waiting for a job post or a referral I wrote straight to the co-founder.</p>
+
+<h3 id="how-i-framed-it">How I Framed It</h3>
+
+<ol>
+  <li><strong>Quick hook</strong>
+I opened with genuine praise for the product and flagged a small bug. It showed I was already a power user.</li>
+  <li><strong>Crisp story</strong>
+Three paragraphs covered my coding roots, a startup I had worked on, and an MBA focused on product.</li>
+  <li><strong>Clear value</strong>
+I linked my skills to gaps I spotted on their job board and asked for a chance to prove my worth.</li>
+</ol>
+
+<hr />
+
+<p>Today marks two years at a company that feels like home.</p>
+
+<h2 id="lessons-from-the-journey">Lessons From the Journey</h2>
+
+<h3 id="1-passion-beats-polish">1. Passion Beats Polish</h3>
+
+<p>A heartfelt note beats a template. I wrote in my own voice and it clicked.</p>
+
+<h3 id="2-own-your-story">2. Own Your Story</h3>
+
+<p>Listing roles is dull. A short narrative is memorable. My email showed a clear arc from coding to product to fintech.</p>
+
+<h3 id="3-ask-boldly-and-politely">3. Ask Boldly and Politely</h3>
+
+<p>People are busy yet they read thoughtful messages. A specific ask and respect for their time can open doors.</p>
+
+<hr />
+
+<h2 id="what-happened-after-i-joined">What Happened After I Joined</h2>
+
+<ul>
+  <li><strong>Ownership drives me</strong>
+Upstox lets me think like an owner and chase outcomes end to end.</li>
+  <li><strong>Passion compounds</strong>
+Working where finance meets tech keeps me energized every day.</li>
+  <li><strong>Culture shapes growth</strong>
+The calm guidance of Aditya Vyas and Divye Bokdia and the relentless drive of Sandeep Agrawal and Shruti Kalamdani define how I work and lead.</li>
+</ul>
+
+<hr />
+
+<p><em>Thanks for reading. Questions about cold emails or product roles in fintech? Ping me on LinkedIn and I will be happy to help.</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[The Cold Email That Landed Me My Dream Job at Upstox]]></summary></entry><entry><title type="html">What I Learned from My Internship at Zlemma</title><link href="http://localhost:4001/personal/blog/2015/07/06/zlemma-internship/" rel="alternate" type="text/html" title="What I Learned from My Internship at Zlemma" /><published>2015-07-06T00:00:00+05:30</published><updated>2015-07-06T00:00:00+05:30</updated><id>http://localhost:4001/personal/blog/2015/07/06/zlemma-internship</id><content type="html" xml:base="http://localhost:4001/personal/blog/2015/07/06/zlemma-internship/"><![CDATA[<p>Back in January 2015, I started a six-month internship at Zlemma Analytics Pvt. Ltd. in Pune. I was a software intern, fresh off a campus placement, and full of nerves. But deep down, I had a feeling I’d do well. Looking back, I can’t help but smile at how much I grew during that time.</p>
 
 <p>Zlemma was a Series A funded startup with a development team in Pune and a sales office in Palo Alto. The company had patented algorithms to help tech firms hire STEM talent. The founder was an IIT-Bombay alum, and the team was a strong mix of IIT grads and smart folks from tier-two colleges in Maharashtra. It was one of the most driven and talented teams I had seen.</p>
 
