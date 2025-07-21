@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title | default: "Saurabh Gandhi" }}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: "The story and thoughts of Saurabh Gandhi" }}{% endif %}">
+        <meta name="keywords" content="Saurabh Gandhi, Gandhi, {% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}">
+        <meta name="author" content="Saurabh Gandhi">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+        <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+        <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+        <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    {{ content }}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYGRMQQ6RH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YYGRMQQ6RH');
+    </script>
+</body>
+</html>

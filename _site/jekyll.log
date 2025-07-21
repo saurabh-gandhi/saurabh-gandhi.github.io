@@ -1,0 +1,214 @@
+Configuration file: /Users/SaurabhG/Desktop/TrystWithCode/saurabh-gandhi.github.io/_config.yml
+            Source: /Users/SaurabhG/Desktop/TrystWithCode/saurabh-gandhi.github.io
+       Destination: /Users/SaurabhG/Desktop/TrystWithCode/saurabh-gandhi.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.041 seconds.
+ Auto-regeneration: enabled for '/Users/SaurabhG/Desktop/TrystWithCode/saurabh-gandhi.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2025-07-21 16:09:18] ERROR '/favicon.ico' not found.
+[2025-07-21 16:09:33] ERROR '/{{ post.url }}' not found.
+      Regenerating: 1 file(s) changed at 2025-07-21 16:16:19
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.031849 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:16:25
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.027994 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:16:34
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.028484 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:16:39
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.025727 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:17:30
+                    .claude/settings.local.json
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.010679 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:17:35
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.025013 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:17:35
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.010472 seconds.
+                    
+[2025-07-21 16:17:42] ERROR '/posts.html' not found.
+[2025-07-21 16:17:46] ERROR '/posts.html' not found.
+      Regenerating: 2 file(s) changed at 2025-07-21 16:17:59
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.018505 seconds.
+                    
+[2025-07-21 16:18:15] ERROR '/posts/css/styles.css' not found.
+[2025-07-21 16:18:15] ERROR '/posts/favicon.ico' not found.
+      Regenerating: 2 file(s) changed at 2025-07-21 16:19:19
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.017953 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:19:44
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.020378 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:20:10
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.017878 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:20:23
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.017917 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:20:47
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.01983 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:23:23
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.015419 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:24:58
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.019156 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:25:10
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.017494 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:25:20
+                    _layouts/post.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.015506 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:25:28
+                    _posts/2025-07-21-welcome-to-my-blog.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.017034 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:29:10
+                    _posts/2025-07-21-my-second-post.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.153098 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:29:22
+                    jekyll.log
+                    new-post.sh
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.0169 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:29:41
+                    new-post.sh
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.012466 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:29:49
+                    .claude/settings.local.json
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.0135 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:29:50
+                    _posts/2025-07-21-testing-the-new-post-script.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.024963 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:31:15
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.041483 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:33:43
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.024213 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:33:59
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.023242 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:42:33
+                    posts.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.02587 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-07-21 16:43:53
+                    _posts/2025-07-21-my-second-post.md
+                    _posts/2025-07-21-testing-the-new-post-script.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.042371 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:44:45
+                    _posts/2025-07-21-welcome-to-my-blog.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.045536 seconds.
+                    
+[2025-07-21 16:44:53] ERROR '/personal/blog/2025/07/21/welcome-to-my-blog/' not found.
+      Regenerating: 1 file(s) changed at 2025-07-21 16:45:10
+                    _posts/2025-07-21-welcome-to-my-blog.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.034215 seconds.
+                    
+[2025-07-21 16:45:18] ERROR '/.well-known/appspecific/com.chrome.devtools.json' not found.
+[2025-07-21 16:45:22] ERROR '/.well-known/appspecific/com.chrome.devtools.json' not found.
+      Regenerating: 2 file(s) changed at 2025-07-21 16:45:59
+                    _posts/2025-07-21-zlemma-internship.md
+                    _posts/2025-07-21-welcome-to-my-blog.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.034541 seconds.
+                    
+[2025-07-21 16:46:02] ERROR '/.well-known/appspecific/com.chrome.devtools.json' not found.
+      Regenerating: 1 file(s) changed at 2025-07-21 16:47:36
+                    _layouts/post.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.031379 seconds.
+                    
+[2025-07-21 16:47:46] ERROR '/personal/blog/2025/07/21/welcome-to-my-blog/' not found.
+      Regenerating: 1 file(s) changed at 2025-07-21 16:49:09
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.04758 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:49:13
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.013132 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:51:25
+                    .claude/settings.local.json
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.018136 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-07-21 16:53:07
+                    .claude/settings.local.json
+       Jekyll Feed: Generating feed for posts

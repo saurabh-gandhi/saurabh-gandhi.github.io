@@ -1,0 +1,114 @@
+body {
+    margin: auto;
+    padding: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: lighter;
+    color: #FCFCFC;
+    background-color: #1a1a1a;
+    text-decoration: none;
+    max-width: 36rem;
+  }
+  
+  img {
+    width: 5000%;
+    height: auto;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 2em;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-top: 2em;
+  }
+  
+  p {
+    line-height: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+  
+  li {
+    line-height: 1.8em;
+  }
+  
+  blockquote {
+    border-left: 3px solid #5c7a8a;
+    padding:0 2em;
+    margin: 3em 2em;
+  }
+  
+  .callout {
+    font-family: 'Covered By Your Grace', cursive;
+    color: #808080;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+  }
+  
+  .callout a {
+    color: #808080;
+  }
+  
+  ::selection {
+    background-color: #5c7a8a;
+    color: #FFFFFF;
+  }
+  
+  a {
+    text-decoration: none;
+    color:#FCFCFC;
+    border-bottom: 1px solid #5c7a8a;
+    padding-bottom: 2px;
+  }
+  
+  a:hover {
+    color: #fffe9a;
+  }
+  
+  .mutedNav {
+    border: none;
+    margin-bottom: 0.5em;
+    color: #808080;
+  }
+  
+  .mutedTime {
+    margin-bottom: 2em;
+    color: #808080;
+  }
+  
+  #blogList {
+    display: inline-grid;
+  }
+  
+  #blogList a {
+    margin: 0.5em 0;
+    border: none;
+  }
+  
+  .headshot img  {
+    width:8em;
+    margin-bottom: -1em;
+  }
+  
+  .blogPost p {
+    font-family: 'IBM Plex Sans', Avenir, sans-serif;
+  }
+  
+  .blogPost li {
+    font-family: 'IBM Plex Sans', Avenir, sans-serif;
+  }
+  
+  .blogPost .callout {
+      font-family: 'Covered By Your Grace', cursive;
+      color: #808080;
+      font-size: 1.2em;
+      letter-spacing: 1px;
+  }
