@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<a class="mutedNav" href="{{ '/posts/' | relative_url }}">« Posts</a>
+<div>
+    <h1>{{ page.title }}</h1>
+    <p class="mutedTime">{{ page.date | date: "%Y-%m-%d" }}</p>
+    
+    <div class="blogPost">
+        {{ content }}
+    </div>
+    
+    {% if page.categories.size > 0 %}
+    <p><span class="callout">{{ page.categories | join: ', ' }}</span></p>
+    {% endif %}
+    
+    {% if page.tags.size > 0 %}
+    <p><em>{{ page.tags | join: ', ' }}</em></p>
+    {% endif %}
+</div>
