@@ -34,7 +34,7 @@ export function ShareModal({ open, onOpenChange }: ShareModalProps) {
         setShareUrl(url)
       } catch (error) {
         console.error('❌ ShareModal: Failed to generate share URL:', error)
-        setShareUrl(`Error: ${error.message}`)
+        setShareUrl(`Error: ${error instanceof Error ? error.message : 'Unknown error'}`)
       }
     }
   }, [plan, open])

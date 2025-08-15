@@ -15,8 +15,8 @@ export function simulatePlan(plan: Plan): ComputedOutput {
   console.log('🔄 simulatePlan called with goals:', goals.map(g => ({ 
     type: g.type, 
     title: g.title, 
-    retireAge: g.retireAge, 
-    monthlySpendToday: g.monthlySpendToday?.toNumber?.() || 0,
+    retireAge: 'retireAge' in g ? g.retireAge : undefined, 
+    monthlySpendToday: 'monthlySpendToday' in g ? g.monthlySpendToday?.toNumber?.() || 0 : 0,
     postPreset: g.postPreset 
   })))
   

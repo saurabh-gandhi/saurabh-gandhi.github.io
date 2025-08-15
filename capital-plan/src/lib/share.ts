@@ -276,8 +276,8 @@ export function serializePlan(plan: Plan): string {
     return planId
   } catch (error) {
     console.error('❌ Failed to serialize plan:', error)
-    console.error('❌ Error details:', error.message, error.stack)
-    throw new Error(`Failed to create shareable link: ${error.message}`)
+    console.error('❌ Error details:', error instanceof Error ? error.message : 'Unknown', error instanceof Error ? error.stack : '')
+    throw new Error(`Failed to create shareable link: ${error instanceof Error ? error.message : 'Unknown error'}`)
   }
 }
 
