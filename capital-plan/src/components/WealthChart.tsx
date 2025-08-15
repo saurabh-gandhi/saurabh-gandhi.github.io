@@ -296,12 +296,12 @@ export function WealthChart() {
               <span>Portfolio Value (₹Cr) — right axis</span>
             </div>
             <div className="flex items-center">
-              <div className="w-6 h-0 border-t-[2.5px] border-emerald-500 mr-2" style={{borderStyle: 'dashed', borderDasharray: '6 4'}}></div>
+              <div className="w-6 h-0 border-t-[2.5px] border-emerald-500 mr-2 border-dashed"></div>
               <span>Monthly SIP (₹) — left axis</span>
             </div>
             {showAnnualSip && (
               <div className="flex items-center">
-                <div className="w-6 h-0 border-t-2 border-emerald-700 mr-2" style={{borderStyle: 'dashed', borderDasharray: '12 6'}}></div>
+                <div className="w-6 h-0 border-t-2 border-emerald-700 mr-2 border-dashed"></div>
                 <span>Annual SIP (₹/yr) — dashed</span>
               </div>
             )}

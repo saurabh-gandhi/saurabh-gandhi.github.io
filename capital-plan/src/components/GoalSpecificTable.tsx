@@ -322,7 +322,7 @@ function SingleGoalTable({ goal, currencyUnit, valueType, onExport }: GoalTableP
         purchase: 'Purchase Phase',
         custom: 'Goal Achievement Phase'
       }
-      return `${phaseNames[goal.type] || 'Withdrawal Phase'} (Age ${Math.min(...ages)}–${Math.max(...ages)})`
+      return `${phaseNames[goal.type as keyof typeof phaseNames] || 'Withdrawal Phase'} (Age ${Math.min(...ages)}–${Math.max(...ages)})`
     }
   }
 
