@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouFirst Wealth - Money decisions, made calm</title>
+    <meta name="description" content="Cut the noise, choose suitable mutual funds for your goals, and set up SIPs you can actually stick to.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backdropBlur: {
+                        xs: '2px',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <main class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
+        <!-- Decorative glow -->
+        <div class="pointer-events-none absolute -top-24 right-[-10%] h-72 w-72 rounded-full bg-emerald-200 blur-3xl opacity-30"></div>
+
+        <!-- Header -->
+        <header class="sticky top-0 z-40 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200">
+            <div class="mx-auto max-w-6xl h-14 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <img src="youfirstlogo.jpeg" alt="YouFirst Wealth Logo" class="h-8 w-8 object-contain">
+                    <span class="font-semibold tracking-tight">YouFirst Wealth</span>
+                </div>
+                <nav class="hidden md:flex items-center gap-6 text-sm">
+                    <a href="#how" class="hover:text-emerald-700">How</a>
+                    <a href="#pillars" class="hover:text-emerald-700">Pillars</a>
+                    <a href="#faq" class="hover:text-emerald-700">FAQ</a>
+                    <a href="capital-plan/dist/index.html" class="text-emerald-700 font-medium hover:text-emerald-800">Plan Tool</a>
+                </nav>
+                <div class="flex items-center gap-2">
+                    <a data-testid="cta-whatsapp-header" href="https://wa.me/+919767845670" class="rounded-xl bg-emerald-600 px-3 py-2 text-white text-sm font-medium shadow-sm hover:bg-emerald-700">WhatsApp</a>
+                    <a data-testid="cta-book-header" href="https://calendar.app.google/uf3oHVJ3NbMNAtw7A" class="hidden sm:inline-flex rounded-xl border border-slate-300 px-3 py-2 text-sm hover:bg-slate-50">Book call</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- HERO -->
+        <section class="relative overflow-hidden">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <div>
+                        <h1 data-testid="hero-title" class="text-4xl sm:text-6xl font-semibold leading-tight tracking-tight">
+                            Money decisions, made calm.
+                        </h1>
+                        <p class="mt-4 text-lg text-slate-700 max-w-prose">
+                            We cut the noise, choose suitable mutual funds for your goals, and set up SIPs you can actually stick to.
+                        </p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <a data-testid="cta-whatsapp-hero" href="https://wa.me/+919767845670" class="rounded-2xl bg-emerald-600 px-5 py-2.5 text-white font-medium shadow-sm hover:bg-emerald-700">Chat on WhatsApp</a>
+                            <a data-testid="cta-book-hero" href="https://calendar.app.google/uf3oHVJ3NbMNAtw7A" class="rounded-2xl px-5 py-2.5 border border-slate-300 hover:bg-white">Book a 30‑min call</a>
+                            <a href="capital-plan/dist/index.html" class="rounded-2xl px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-medium shadow-sm hover:from-emerald-600 hover:to-teal-700 flex items-center gap-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                </svg>
+                                Try Plan Tool
+                            </a>
+                        </div>
+                        <div class="mt-4 text-sm text-slate-500">Mumbai • 15 yrs investing • 5 yrs building fintech</div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="rounded-3xl border border-slate-200 bg-white/70 backdrop-blur p-5 shadow-sm">
+                            <div class="text-sm text-slate-500">Sample Plan Snapshot</div>
+
+                            <!-- Goals -->
+                            <div class="mt-3 space-y-2">
+                                <div class="flex items-start gap-3 p-3 rounded-2xl bg-slate-50 border border-slate-200">
+                                    <svg class="h-5 w-5 mt-0.5 text-emerald-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" />
+                                        <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+                                        <circle cx="12" cy="12" r="1.2" />
+                                    </svg>
+                                    <div>
+                                        <div class="font-medium">Goals</div>
+                                        <div class="text-sm text-slate-600">Emergency 6m • Home 5y • Education 12y</div>
+                                        <div class="mt-2 grid grid-cols-3 gap-2 text-xs text-slate-600">
+                                            <div class="rounded-lg bg-white border border-slate-200 p-2"><div class="font-medium">₹3.6L</div><div>Emergency</div></div>
+                                            <div class="rounded-lg bg-white border border-slate-200 p-2"><div class="font-medium">₹25L</div><div>Home (5y)</div></div>
+                                            <div class="rounded-lg bg-white border border-slate-200 p-2"><div class="font-medium">₹40L</div><div>Education (12y)</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Asset mix -->
+                                <div class="p-3 rounded-2xl bg-slate-50 border border-slate-200">
+                                    <div class="font-medium">Asset mix (example)</div>
+                                    <div class="mt-2 space-y-2 text-sm">
+                                        <div class="">
+                                            <div class="flex justify-between text-slate-600"><span>Equity</span><span>60%</span></div>
+                                            <div class="mt-1 h-2 rounded-full bg-slate-200 overflow-hidden">
+                                                <div class="h-full bg-emerald-600" style="width: 60%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="flex justify-between text-slate-600"><span>Hybrid/Debt</span><span>30%</span></div>
+                                            <div class="mt-1 h-2 rounded-full bg-slate-200 overflow-hidden">
+                                                <div class="h-full bg-emerald-600" style="width: 30%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="flex justify-between text-slate-600"><span>Liquid</span><span>10%</span></div>
+                                            <div class="mt-1 h-2 rounded-full bg-slate-200 overflow-hidden">
+                                                <div class="h-full bg-emerald-600" style="width: 10%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SIP plan -->
+                                <div class="p-3 rounded-2xl bg-slate-50 border border-slate-200">
+                                    <div class="font-medium">SIP plan (₹25k/mo example)</div>
+                                    <div class="mt-2 grid grid-cols-2 gap-2 text-xs text-slate-700">
+                                        <div class="flex items-center justify-between rounded-lg bg-white border border-slate-200 px-3 py-2"><span>Nifty 50 Index</span><span class="font-medium">₹8k</span></div>
+                                        <div class="flex items-center justify-between rounded-lg bg-white border border-slate-200 px-3 py-2"><span>Flexi-cap</span><span class="font-medium">₹6k</span></div>
+                                        <div class="flex items-center justify-between rounded-lg bg-white border border-slate-200 px-3 py-2"><span>Mid-cap</span><span class="font-medium">₹5k</span></div>
+                                        <div class="flex items-center justify-between rounded-lg bg-white border border-slate-200 px-3 py-2"><span>Short-term Debt</span><span class="font-medium">₹4k</span></div>
+                                        <div class="flex items-center justify-between rounded-lg bg-white border border-slate-200 px-3 py-2 col-span-2"><span>Liquid (buffer)</span><span class="font-medium">₹2k</span></div>
+                                    </div>
+                                </div>
+
+                                <!-- Rules & safeguards -->
+                                <div class="p-3 rounded-2xl bg-slate-50 border border-slate-200">
+                                    <div class="font-medium">Rules</div>
+                                    <ul class="mt-2 text-sm text-slate-700 list-disc list-inside">
+                                        <li><span class="font-medium">Rebalance rule:</span> ±5% band from target mix</li>
+                                        <li><span class="font-medium">Panic protocol:</span> 24‑hour cool‑off → call → decide</li>
+                                        <li><span class="font-medium">Tax-aware:</span> consider LTCG harvest near FY end; debt for short-term needs</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 text-xs text-slate-500">Illustrative only. Your numbers will differ.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PLAN TOOL SECTION -->
+        <section class="bg-gradient-to-br from-emerald-50 to-teal-50 border-t border-slate-200">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
+                <div class="text-center">
+                    <h2 class="text-3xl sm:text-4xl font-semibold text-slate-900 mb-4">
+                        Plan Your Financial Future
+                    </h2>
+                    <p class="text-lg text-slate-700 max-w-2xl mx-auto mb-8">
+                        Use our interactive planning tool to visualize your goals, calculate SIP requirements, and build a comprehensive wealth strategy.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900 mb-2">Multi-Goal Planning</h3>
+                                <p class="text-slate-700">Plan for retirement, education, house purchase, vacations, and custom goals all in one place.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900 mb-2">Interactive Visualization</h3>
+                                <p class="text-slate-700">See your wealth path unfold over time with dynamic charts and detailed year-wise breakdowns.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900 mb-2">Precise Calculations</h3>
+                                <p class="text-slate-700">Advanced SIP calculations with monthly compounding, step-up rates, and smart goal achievement.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl p-8 shadow-xl">
+                        <div class="text-center mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-3xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-slate-900 mb-2">YouFirstPlan</h3>
+                            <p class="text-slate-600 mb-6">Interactive financial planning tool</p>
+                        </div>
+
+                        <div class="space-y-3 text-sm text-slate-700 mb-8">
+                            <div class="flex items-center gap-3">
+                                <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Multiple goal types with smart SIP calculations</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Real-time wealth path visualization</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Share and export your plans</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Professional-grade calculations</span>
+                            </div>
+                        </div>
+
+                        <a href="capital-plan/dist/index.html" class="block w-full text-center bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold py-3 px-6 rounded-2xl hover:from-emerald-700 hover:to-teal-700 transition-all duration-200 shadow-sm">
+                            Launch YouFirstPlan →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW -->
+        <section id="how" class="border-t border-slate-200">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+                <h2 class="text-2xl sm:text-3xl font-semibold">How it works</h2>
+
+                <!-- Timeline-style steps with clearer deliverables -->
+                <div class="mt-6 grid md:grid-cols-3 gap-4">
+                    <div class="rounded-2xl p-5 border border-slate-200 bg-white">
+                        <div class="text-xs text-slate-500">Step 1 • Day 0–2</div>
+                        <div class="mt-1 font-semibold">Baseline</div>
+                        <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
+                            <li>30‑min clarity call</li>
+                            <li>Goals & cashflow capture</li>
+                            <li>Existing folios & risk cues</li>
+                        </ul>
+                        <div class="mt-3 text-xs text-slate-500">Deliverable: one‑page baseline</div>
+                    </div>
+
+                    <div class="rounded-2xl p-5 border border-slate-200 bg-white">
+                        <div class="text-xs text-slate-500">Step 2 • Day 3–5</div>
+                        <div class="mt-1 font-semibold">Build</div>
+                        <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
+                            <li>Category‑pure lineup (Regular plans)</li>
+                            <li>SIP/STP setup & folio hygiene</li>
+                            <li>Target mix & rules documented</li>
+                        </ul>
+                        <div class="mt-3 text-xs text-slate-500">Deliverable: SIP plan + target mix</div>
+                    </div>
+
+                    <div class="rounded-2xl p-5 border border-slate-200 bg-white">
+                        <div class="text-xs text-slate-500">Step 3 • Ongoing</div>
+                        <div class="mt-1 font-semibold">Stay on track</div>
+                        <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
+                            <li>Quarterly 20‑min reviews</li>
+                            <li>±5% rebalance discipline</li>
+                            <li>Tax‑time checklist</li>
+                        </ul>
+                        <div class="mt-3 text-xs text-slate-500">Deliverable: quarterly summary</div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <a data-testid="cta-how-start" href="https://wa.me/+919767845670" class="inline-flex rounded-2xl bg-emerald-600 px-5 py-3 text-white font-medium hover:bg-emerald-700">Start on WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PILLARS -->
+        <section id="pillars" class="border-t border-slate-200 bg-slate-50">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+                <div class="flex items-end justify-between">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-semibold">Three pillars</h2>
+                        <p class="text-slate-600 mt-1">What makes us different—at a glance.</p>
+                    </div>
+                </div>
+
+                <div class="mt-6 grid md:grid-cols-3 gap-4 text-sm text-slate-700">
+                    <!-- Pillar 1: Clarity over noise -->
+                    <div class="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition-transform hover:-translate-y-0.5">
+                        <div class="pointer-events-none absolute -top-8 -right-8 h-32 w-32 rounded-full bg-emerald-200/50 blur-2xl opacity-40 group-hover:opacity-60"></div>
+                        <div class="flex items-start gap-4">
+                            <div class="h-12 w-12 shrink-0 rounded-2xl bg-gradient-to-br from-emerald-600 to-emerald-400 text-white shadow-inner flex items-center justify-center">
+                                <!-- Sparkle icon -->
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                    <path d="M12 2l1.4 3.6L17 7l-3.6 1.4L12 12l-1.4-3.6L7 7l3.6-1.4L12 2Z"/>
+                                    <path d="M19 12l.9 2.3L22 15l-2.1.7L19 18l-.9-2.3L16 15l2.1-.7L19 12Z"/>
+                                </svg>
+                            </div>
+                            <div class="relative w-full">
+                                <div class="font-semibold tracking-tight">Clarity over noise</div>
+                                <p class="mt-1 text-slate-600">Turn finfluencer overwhelm into a short, suitable list you can act on.</p>
+                                <div class="mt-3 flex flex-wrap gap-2">
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">Category-pure</span>
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">No overlaps</span>
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">Low cost</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 grid grid-cols-3 gap-2 text-xs text-slate-600">
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Shortlist</div>
+                                <div class="font-medium">4–6 funds</div>
+                            </div>
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Overlap</div>
+                                <div class="font-medium">&lt; 20%</div>
+                            </div>
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">ER focus</div>
+                                <div class="font-medium">Value &gt; hype</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pillar 2: Execution, not lectures -->
+                    <div class="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition-transform hover:-translate-y-0.5">
+                        <div class="pointer-events-none absolute -top-8 -right-8 h-32 w-32 rounded-full bg-emerald-200/50 blur-2xl opacity-40 group-hover:opacity-60"></div>
+                        <div class="flex items-start gap-4">
+                            <div class="h-12 w-12 shrink-0 rounded-2xl bg-gradient-to-br from-emerald-600 to-emerald-400 text-white shadow-inner flex items-center justify-center">
+                                <!-- Check icon -->
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="relative w-full">
+                                <div class="font-semibold tracking-tight">Execution, not lectures</div>
+                                <p class="mt-1 text-slate-600">SIPs, SWP/STP, and folio hygiene done right—so you don't stall.</p>
+                                <div class="mt-3 flex flex-wrap gap-2">
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">SIP automation</span>
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">STP/SWP</span>
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">Folio hygiene</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 grid grid-cols-3 gap-2 text-xs text-slate-600">
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Go‑live</div>
+                                <div class="font-medium">~ 1 week</div>
+                            </div>
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Setup</div>
+                                <div class="font-medium">End‑to‑end</div>
+                            </div>
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Ops</div>
+                                <div class="font-medium">Handled</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pillar 3: Behaviour beats timing -->
+                    <div class="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition-transform hover:-translate-y-0.5">
+                        <div class="pointer-events-none absolute -top-8 -right-8 h-32 w-32 rounded-full bg-emerald-200/50 blur-2xl opacity-40 group-hover:opacity-60"></div>
+                        <div class="flex items-start gap-4">
+                            <div class="h-12 w-12 shrink-0 rounded-2xl bg-gradient-to-br from-emerald-600 to-emerald-400 text-white shadow-inner flex items-center justify-center">
+                                <!-- Repeat/discipline icon -->
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                    <path d="M4 4h9a5 5 0 0 1 5 5v1" stroke-linecap="round"/>
+                                    <path d="M8 20h9a5 5 0 0 0 5-5v-1" stroke-linecap="round"/>
+                                    <path d="M7 7l-3 3 3 3" stroke-linecap="round"/>
+                                    <path d="M17 11l3 3-3 3" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="relative w-full">
+                                <div class="font-semibold tracking-tight">Behaviour beats timing</div>
+                                <p class="mt-1 text-slate-600">We keep you invested when markets get loud with simple, pre‑agreed rules.</p>
+                                <div class="mt-3 flex flex-wrap gap-2">
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">±5% bands</span>
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">24‑hr cool‑off</span>
+                                    <span class="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs">Quarterly check‑ins</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 grid grid-cols-3 gap-2 text-xs text-slate-600">
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Churn</div>
+                                <div class="font-medium">Kept low</div>
+                            </div>
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Discipline</div>
+                                <div class="font-medium">Built‑in</div>
+                            </div>
+                            <div class="rounded-xl border border-slate-200 p-3 bg-white">
+                                <div class="text-[11px]">Stress</div>
+                                <div class="font-medium">Lowered</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="border-t border-slate-200">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+                <h2 class="text-2xl sm:text-3xl font-semibold">FAQ</h2>
+
+                <!-- Accordion-style breakdown (7 Qs). Multiple can be open at once. -->
+                <div class="mt-8 space-y-2">
+                    <!-- Q1 -->
+                    <details data-testid="faq-q1" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">Direct vs Regular — which is right for me?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            We handle <strong>Regular plans</strong> end‑to‑end (SIP/STP/SWP, folio hygiene). If you prefer <strong>Direct plans</strong> with fee‑only advice, we'll refer you to a suitable RIA.
+                        </div>
+                    </details>
+
+                    <!-- Q2 -->
+                    <details data-testid="faq-q2" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">What fees do I pay?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            There's <strong>no separate fee</strong> from us. Your cost is the fund's <strong>expense ratio</strong> (built into NAV). We may receive <strong>standard trail</strong> from AMCs on Regular plans; ask us anytime for a yearly summary.
+                        </div>
+                    </details>
+
+                    <!-- Q3 -->
+                    <details data-testid="faq-q3" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">How do you pick funds?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            <ul class="list-disc list-inside space-y-1">
+                                <li>Category purity aligned to your goal</li>
+                                <li>Cost discipline &amp; process governance at AMC</li>
+                                <li>Rolling‑return consistency &amp; downside control</li>
+                                <li>No overlapping bets across funds</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <!-- Q4 -->
+                    <details data-testid="faq-q4" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">How soon can I start?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            Typically within a week: <span class="whitespace-nowrap">Day 0–2</span> baseline → <span class="whitespace-nowrap">Day 3–5</span> setup → live SIPs.
+                        </div>
+                    </details>
+
+                    <!-- Q5 -->
+                    <details data-testid="faq-q5" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">What happens when markets fall?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            <ul class="list-disc list-inside space-y-1">
+                                <li><strong>24‑hour cool‑off</strong> before any change</li>
+                                <li>Talk, then act—avoid panic exits</li>
+                                <li>Rebalance only if outside ±5% bands</li>
+                                <li>SIPs continue unless cashflow needs change</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <!-- Q6 -->
+                    <details data-testid="faq-q6" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">Do you help with insurance and credit?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            We provide literacy and fitment frameworks; we can <strong>shortlist</strong> options and <strong>refer</strong> you to licensed providers. We don't sell these products.
+                        </div>
+                    </details>
+
+                    <!-- Q7 -->
+                    <details data-testid="faq-q7" class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+                        <summary class="flex items-center justify-between cursor-pointer select-none">
+                            <span class="font-medium">Can I pause or change SIPs later?</span>
+                            <svg class="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </summary>
+                        <div class="mt-3 text-sm text-slate-700">
+                            Yes—life happens. We'll adjust amount/timing or pause with a plan, and restart when your cashflows stabilize.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sticky mobile CTA bar -->
+        <div class="fixed inset-x-0 bottom-0 z-40 md:hidden border-t border-slate-200 bg-white/95 backdrop-blur">
+            <div class="mx-auto max-w-6xl px-4 py-2 flex items-center gap-3">
+                <a data-testid="cta-whatsapp-sticky" href="https://wa.me/+919767845670" class="flex-1 rounded-xl bg-emerald-600 py-2 text-center text-white font-medium">WhatsApp</a>
+                <a data-testid="cta-book-sticky" href="https://calendar.app.google/uf3oHVJ3NbMNAtw7A" class="flex-1 rounded-xl border border-slate-300 py-2 text-center">Book</a>
+            </div>
+        </div>
+
+        <!-- Footer — super light -->
+        <footer class="border-t border-slate-200 bg-white">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10 text-sm text-slate-600">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                    <div class="font-medium text-slate-800">YouFirst Wealth</div>
+                    <div class="text-xs">Mutual Fund Distributor • ARN-332142</div>
+                </div>
+                <div class="mt-3 text-[12px]">Mutual fund investments are subject to market risks. Read all scheme-related documents carefully.</div>
+                <div class="mt-3 text-[12px]">Contact: <a class="underline" href="mailto:gandhisaurabhsanjay@gmail.com">gandhisaurabhsanjay@gmail.com</a> • WhatsApp: <a class="underline" href="https://wa.me/+919767845670">+919767845670</a></div>
+                <div class="mt-3 text-[12px]">© <script>document.write(new Date().getFullYear())</script> YouFirst Wealth.</div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
